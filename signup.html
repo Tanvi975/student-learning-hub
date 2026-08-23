@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student Signup Form</h1>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+
+        <br><br>
+
+        <h3>Gender</h3>
+
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender">
+        <label for="other">Prefer not to say</label>
+
+        <br><br>
+
+        <h3>Year</h3>
+
+        <input type="radio" id="first" name="year">
+        <label for="first">First Year</label>
+
+        <input type="radio" id="second" name="year">
+        <label for="second">Second Year</label>
+
+        <input type="radio" id="third" name="year">
+        <label for="third">Third Year</label>
+
+        <input type="radio" id="fourth" name="year">
+        <label for="fourth">Fourth Year</label>
+
+        <br><br>
+
+        <h3>Branch</h3>
+
+        <select>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>Mechanical</option>
+        </select>
+
+        <br><br>
+
+        <h3>Interested Topics</h3>
+
+        <input type="checkbox" id="cpp">
+        <label for="cpp">C++</label>
+
+        <input type="checkbox" id="dsa">
+        <label for="dsa">DSA</label>
+
+        <input type="checkbox" id="web">
+        <label for="web">Web Development</label>
+
+        <input type="checkbox" id="ai">
+        <label for="ai">AI/ML</label>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <hr>
+
+    <a href="index.html">Back to Home Page</a>
+
+</body>
+
+</html>
